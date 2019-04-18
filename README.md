@@ -16,7 +16,7 @@ Finally, the Python dependencies are listed in ``requirements.txt``.
 
 To download the FASTQ files for an SRA experiment, run 
 
-``download_experiment.py <SRA experiment accession> -d <download destination>`` 
+``python download_experiment.py <SRA experiment accession> -d <download destination>`` 
 
 This will create a directory ``<download destination>/<SRA experiment accession>`` that will store the FASTQ file for each read (for paired-end data, there will be a FASTQ for the forward and reverse stranded read).
 
