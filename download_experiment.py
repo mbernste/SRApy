@@ -26,7 +26,7 @@ def main():
         exp_acc,
         destination=destination,
         gzip=gzip, 
-        bypass_slots=False
+        bypass_slots=True
     )
 
 if __name__ == "__main__":
