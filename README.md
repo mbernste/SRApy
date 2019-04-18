@@ -8,7 +8,9 @@ This package requires a few installations. First, the [SRA toolkit](https://www.
 
 Next, you will need to download [Aspera](https://asperasoft.com) and make sure the ``aspera`` executable is also on the ``PATH`` variable. 
 
-The SRA Toolkit requires an Aspera private key (see SRA Toolkit documentation), which will need to be added to a ``ASPERA_KEY`` environment variable.
+The SRA Toolkit requires an Aspera private key (see SRA Toolkit documentation), which will need to be added to a ``ASPERA_KEY`` environment variable:
+
+``export ASPERA_KEY=<path to Aspera key>``
 
 Finally, the Python dependencies are listed in ``requirements.txt``.
 
